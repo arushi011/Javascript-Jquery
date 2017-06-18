@@ -1,6 +1,6 @@
 # Javascript-for-Dummies
 
-##What does Javascript do? 
+## What does Javascript do? 
 
 * HTML proves a stucture to the web page
 * CSS prvides a look and style to it.
@@ -8,11 +8,11 @@
 
 Using Javascript:
 
-###<style type="text/Javascript">...</style>
+### <style type="text/Javascript">...</style>
 
 Any "event" triggers a piece of Javascript code. Example of event: OnClick, OnLoad, etc
 
-###<body onLoad=" alert("hello"); ">...</body>
+### <body onLoad=" alert('hello') ">...</body>
 
 "alert" is a Javascript function fired when even Onload occurs.
 

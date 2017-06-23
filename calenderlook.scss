@@ -1,0 +1,44 @@
+$background_color : white;
+$element_highlight : $background_color;
+$calendar_color: black;
+
+$day_pill_size : 25px;
+$pill_margin : 8px;
+body {
+  background-color:desaturate($background_color, 30);
+  //desaturate lightens the color
+}
+.calendar {
+  background-color: $calendar_color;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 290px; padding:45px;
+  position: absolute;
+  top:50%; left:50%;
+  transform: translateY(-50%) translateX(-50%);
+   box-shadow: 5px 10px 20px rgba( 0,0,0,.6);
+  border-radius:5px;
+
+h1{
+  text-align: center;
+    color: $element_highlight;
+    margin: 0 0 30px 0;  
+}
+form{
+  position:relative;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+
+label{
+  display: inline-block;
+  width: $day_pill_size;
+  margin: $pill_margin;
+  text-align: center;
+  color: #999
+}
+ 
+  }}
+  

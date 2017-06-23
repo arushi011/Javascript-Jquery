@@ -10,11 +10,13 @@ Using Javascript:
 
 ### <style type="text/Javascript">...</style>
 
-Any "event" triggers a piece of Javascript code. Example of event: OnClick, OnLoad, etc
+Any "event" triggers a piece of Javascript code. Example of event:-on
 
-### <body onLoad=" alert('hello') ">...</body>
-
-"alert" is a Javascript function fired when even Onload occurs.
+* onclick
+* onload
+* onblur
+* onchange
+* etc..
 
 when user triggers an event browser packages and passes all information related to that event to a Javascript function that is designated to respond to the perticular event.
 
@@ -24,8 +26,10 @@ Javascript Facts:
 
 1. Web browsers have special piece of software inside them called " JavaScript Enterpreter" and its job is to sun Javascript code that appears within page
 
-2. Javascript is aninterpreted language which doesn't need to be compiled as the code gets dirrectly interpreted by browser
+2. Javascript is an interpreted language which doesn't need to be compiled as the code gets dirrectly interpreted by browser
 
-More to post..
-Happy Coding..
 :blush: :blush:
+
+## Javascript Good Practices
+
+

@@ -1,0 +1,19 @@
+body {
+  background: #eee;
+}
+.filler {
+  background: #7ecb20;
+  position: absolute;
+  bottom: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

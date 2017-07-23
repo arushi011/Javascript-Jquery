@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock Widget</title>
+    <link rel="stylesheet" type="text/css" href="clocklook.css">
+    <script src="clockact.js" type="text/javascript"></script>
+</head>
+<body onload="showClock()">
+    
+
+<div class="filler"></div>
+<svg width="200" height="200">
+<circle id="shadow" style="fill:rgba(0,0,0,0.1)" cx="99" cy="101" r="87" ></circle>
+<circle id="circle" style="stroke: #FFF; stroke-width: 10px; fill:#7ecb20" cx="100" cy="100" r="80"></circle>
+
+<line x1="100" y1="100" x2="100" y2="55" transform="rotate(80 100 100)" style="stroke-width: 3px; stroke: #fffbf9;" id="hourhand">
+<animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="43200s" repeatCount="indefinite"/></line>
+  
+<line x1="100" y1="100" x2="100" y2="40" style="stroke-width: 4px; stroke: #fdfdfd;" id="minutehand">
+<animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="3600s" repeatCount="indefinite"/></line>
+
+<line x1="100" y1="100" x2="100" y2="30" style="stroke-width: 2px; stroke: #eeeeee;" id="secondhand">
+<animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="60s"
+repeatCount="indefinite"/></line>
+    
+<circle id="center" style="fill: #7ecb20; stroke: white; stroke-width: 2px;" cx="100" cy="100" r="3"></circle>
+</svg>
+
+
+</body>
+</html>

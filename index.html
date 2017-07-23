@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="look.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+   
+    <script src="interactivity.js" type="text/javascript"></script>
+</head>
+<body>
+    
+
+<div class="musicbox">
+  <div class="upperhalf">
+    <i class="material-icons uppericons">menu</i>
+    <i class="material-icons uppericons" style="float:right;"> search </i>  
+  </div>
+  <div class="image">
+  <img src="https://s-media-cache-ak0.pinimg.com/236x/9b/2d/ce/9b2dceb6f3a2cf9d4f1ce777e5b913d2.jpg" alt="song"/>
+  </div>
+  <div class="lowerhalf">
+    <i class="material-icons playbuttons">fast_rewind</i>
+    <i id="player" class="material-icons playbuttons play" onclick="playToggle()">pause</i>
+    <i class="material-icons playbuttons">fast_forward</i><br>
+    <i class="material-icons smallbuttons">shuffle</i>
+    <i class="material-icons smallbuttons">repeat</i>
+    <i class="material-icons smallbuttons">favorite</i>
+  </div>
+</div>
+
+    
+</body>
+</html>

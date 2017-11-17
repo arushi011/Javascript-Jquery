@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>jQuery UI Tabs - Sortable</title>
+    <style>
+      #sortable { list-style-type: none; margin: 0; padding: 0; width: 100%;}
+      #sortable li { margin: 3px 3px 3px 3px; padding: 0.4em; font-size: 1.4em; height: 18px; display:inline;
+        cursor:default;}
+      #header{
+        padding: 10px 0 10px 0;
+        height:30px;
+        width:500px;
+        overflow-x: hidden;
+      }
+
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <script src="sortable-tabs.js"></script>
+
+  </head>
+  <body>
+    <label id="name">Arushi</label>
+    <button id="getbtn" onclick="OnSuccessShow();">Get</button>
+    <button id="savebtn" onclick="OnSuccessSave();">Save</button>
+    <div id="tabs">
+      <ul id="sortable" ></ul>
+
+    </div>
+
+  </body>
+</html>
